@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin</title>
+</head>
+<body>
+    <main id="main">
+        <h2>Create new article</h2>
+        <form id="create-article-form">
+            <input id="title" type="text" placeholder="Title"/>
+            <input id="image" type="text" placeholder="Image url"/>
+            <textarea id="content" name="content" cols="30" rows="10"></textarea>
+            <input type="submit" value="Create"/>
+        </form>
+        <ul id="articles-wrapper"></ul>
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="./js/admin.js"></script>
+</body>
+</html>
